@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    direction: rtl;
+    text-align: right;
+}
+
+/* الهيدر */
+header {
+    background-color: #002147;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header .support-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* المحتوى الرئيسي */
+.support-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.support-title {
+    color: #002147;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.support-article {
+    margin-bottom: 1.5rem;
+}
+
+.support-subtitle {
+    color: #002147;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.support-text, .support-list {
+    line-height: 1.6;
+    color: #555;
+}
+
+.support-list {
+    padding-right: 1.5rem;
+    list-style-type: disc;
+}
+
+/* الفوتر */
+footer {
+    background-color: #002147;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .support-footer #support-contact {
+    font-weight: bold;
+    color: #ffc107;
+}
